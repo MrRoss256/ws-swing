@@ -9,7 +9,7 @@ public class Chatty {
 		
 		try {
             // open websocket
-            final WSClient clientEndPoint = new WSClient(new URI("ws://localhost:8080"));
+            final WSClient clientEndPoint = new WSClient(new URI("ws://localhost:80"));
 
             // add listener
             clientEndPoint.addMessageHandler(new WSClient.MessageHandler() {
